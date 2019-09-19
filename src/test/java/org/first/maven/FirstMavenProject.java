@@ -19,7 +19,7 @@ public class FirstMavenProject {
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.amazon.in/ref=nav_logo");
 		d.manage().window().maximize();
-		d.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone x");
+		d.findElement(By.id("twotabsearchtextbox")).sendKeys("Oneplus 6");
 		
 		Robot r = new Robot();
 		r.keyPress(KeyEvent.VK_ENTER);
