@@ -18,7 +18,7 @@ public class FirstMavenProject {
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\SampleMaven\\driver\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.amazon.in/ref=nav_logo");
-		d.manage().window().maximize();
+		//d.manage().window().maximize();
 		d.findElement(By.id("twotabsearchtextbox")).sendKeys("Oneplus 6");
 		
 		Robot r = new Robot();
